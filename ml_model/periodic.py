@@ -145,8 +145,8 @@ def periodic():
     print("Periodic process started")
     
     
-    username = "mahan0874690964"
-    bearer_token = "AAAAAAAAAAAAAAAAAAAAALG%2B0wEAAAAAINwvSUeHUcVUvRXl3xAoh2v%2BH7w%3DzLVdQq3NJCvWVk9Ub0NsUvJd2AA0RBjevIWaJVihw6sFRnVj4T"
+    username = "Twitter account user name" # add the particular user name where you want to extract tweets
+    bearer_token = "" # add your token (twitter api developer account )
     client = tweepy.Client(bearer_token=bearer_token)
     extract_tweets_and_classify(username,client)
     
